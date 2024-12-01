@@ -128,7 +128,7 @@ Gruvbox.palette = {
   gray = "#928374",
 }
 
--- get a hex list of gruvbox colors based on current bg and constrast config
+-- get a hex list of gruvbox colors based on current bg and contrast config
 local function get_colors()
   local p = Gruvbox.palette
   local config = Gruvbox.config
